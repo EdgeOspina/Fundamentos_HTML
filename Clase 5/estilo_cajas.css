@@ -1,0 +1,47 @@
+#s1 div{
+    background-color: #9ACD32;
+    width: 400px;
+    display: inline-block ;
+}
+
+#s1 p{
+    margin: 0;
+    font-family: Verdana;
+    font-size: 0.9rem;
+}
+
+/*table, tr, td, p{
+    margin: 0;
+}*/
+
+#s2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#s3 #parrafo, #span, #label{
+    font-size: 1.2rem;
+}
+
+#s4 p{
+    color: #CD6090
+}
+#s4 p{
+    font-family: Tahoma;
+}
+
+#s5{
+    text-align: center;
+}
+#s5 div{
+    width: 100px;
+    background-color: green;
+    display: inline-block;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#s5 div:hover{
+    color: orange;
+    font-weight: bold;
+    background-color: purple;
+}
