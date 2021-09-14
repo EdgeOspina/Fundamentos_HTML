@@ -1,0 +1,24 @@
+
+#cabecera{
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    margin: 40;
+}
+
+#formulario{
+    width: 90%;
+    margin: 40;
+}
+
+#registrarse{
+    width: 50%;
+    text-align: left;
+    margin: 40;
+}
+
+#opciones{
+    width : 50%;
+    text-align: center;
+    margin: 40;
+}
