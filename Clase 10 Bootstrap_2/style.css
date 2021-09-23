@@ -1,0 +1,27 @@
+#contImg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#cabecera{
+    background-color: darkcyan;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1rem;
+}
+
+#texto{
+    color: white;
+    width: 50%;
+    padding-top: 100px;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+#imgCabecera{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-top: 100px;
+}

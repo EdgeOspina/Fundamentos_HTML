@@ -21,14 +21,23 @@
 
     <!-- Llamar archivo javascript-->
     <script src="functions.js"></script>
+    <script src="characters.js"></script>
     <!-- Hacer la función desde el mismo index-->
+    <script>
+        getCharacters();
+    </script>
     <script>
         alert("Hola mundo")
     </script>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+
+
+
     <!--Inicio Barra Navegación-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -73,18 +82,19 @@
     </nav>
     <!--Fin barra Navegación-->
 
+    <div id="cabecera">
+        <div id="texto">
+            <h1>Futurama</h1>
+            <span>Consulta Personajes</span>
+        </div>
+        <div id="imgCabecera">
+            <img src="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554871230/planet-express.png">
+        </div>
+    </div>
 
     <!---Inicio Tarjeta-->
-    <div class="card" style="width: 18rem;">
-        <img id="img1"
-            src="https://image.goat.com/750/attachments/product_template_pictures/images/060/172/882/original/CZ4149_400.png.png"
-            class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            <a href="#" class="btn btn-primary" onclick="cambiarImagen()">Actualizar</a>
-        </div>
+    <div id="contImg">
+
     </div>
     <!---Fin Tarjeta-->
 </body>
