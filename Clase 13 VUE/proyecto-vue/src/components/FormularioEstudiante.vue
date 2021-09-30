@@ -54,6 +54,11 @@ export default {
         buscar(){
             let result = this.estudiantes.filter(obj => (obj.cedula == this.buscar_cedula));
             console.log(result);
+            //Realizar una transformación de los datos del arreglo
+            let arreglo = this.estudiantes.map(obj => {
+                return obj.nombre + "-001";
+            });
+            console.log(arreglo);
         }
     }
 };
